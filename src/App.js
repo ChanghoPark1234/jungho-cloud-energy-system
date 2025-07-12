@@ -4,6 +4,11 @@ import CloudArchitecture from './components/CloudArchitecture';
 import ExecutiveDashboard from './components/ExecutiveDashboard';
 import CustomerJourney from './components/CustomerJourney';
 import TechArchComparison from './components/TechArchComparison';
+import EnergySystemDiagrams from './components/EnergySystemDiagrams';
+import AdvancedMermaidExamples from './components/AdvancedMermaidExamples';
+import MermaidEditor from './components/MermaidEditor';
+import MermaidGallery from './components/MermaidGallery';
+import DeploymentHelper from './components/DeploymentHelper';
 import Button from './components/Button';
 import Card from './components/Card';
 import { H1, H2, H3, Text, Body } from './components/Typography';
@@ -309,6 +314,11 @@ function Overview() {
 const pages = [
   { key: 'overview', label: '개요', component: <Overview /> },
   { key: 'arch', label: '아키텍처', component: <CloudArchitecture /> },
+  { key: 'diagrams', label: '시스템 다이어그램', component: <EnergySystemDiagrams /> },
+  { key: 'advanced', label: '고급 다이어그램', component: <AdvancedMermaidExamples /> },
+  { key: 'editor', label: '다이어그램 편집기', component: <MermaidEditor /> },
+  { key: 'gallery', label: '다이어그램 갤러리', component: <MermaidGallery /> },
+  { key: 'deployment', label: '배포 도구', component: <DeploymentHelper /> },
   { key: 'dashboard', label: '임원 대시보드', component: <ExecutiveDashboard /> },
   { key: 'journey', label: '고객 여정', component: <CustomerJourney /> },
   { key: 'compare', label: '기술 비교', component: <TechArchComparison /> },
