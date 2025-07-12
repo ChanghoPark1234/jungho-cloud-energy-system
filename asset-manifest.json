@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jungho-cloud-energy-system/static/css/main.da8ed16b.css",
+    "main.js": "/jungho-cloud-energy-system/static/js/main.484c14a8.js",
+    "index.html": "/jungho-cloud-energy-system/index.html",
+    "main.da8ed16b.css.map": "/jungho-cloud-energy-system/static/css/main.da8ed16b.css.map",
+    "main.484c14a8.js.map": "/jungho-cloud-energy-system/static/js/main.484c14a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da8ed16b.css",
+    "static/js/main.484c14a8.js"
+  ]
+}
