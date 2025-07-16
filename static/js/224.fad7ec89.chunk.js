@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcloud_energy_system=self.webpackChunkcloud_energy_system||[]).push([[224],{7224:(e,s,c)=>{c.d(s,{createArchitectureServices:()=>r.S});var r=c(2552);c(6525)}}]);
